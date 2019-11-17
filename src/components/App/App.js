@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './App.module.scss';
 
-const App = () => <div className={styles.App}>Hi I am an App</div>;
+import Layout from "../Layout/Layout";
+
+const App = () => <div className={styles.App}><Layout/></div>;
 
 export default App;
