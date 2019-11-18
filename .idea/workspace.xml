@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed0b3153-9f37-4133-b949-3978eb3e2953" name="Default Changelist" comment="" />
+    <list default="true" id="ed0b3153-9f37-4133-b949-3978eb3e2953" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/Header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/Header/Header.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/Logo/Logo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/Logo/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/MenuIcon/MenuIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/MenuIcon/MenuIcon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +36,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/shared/Logo" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -38,6 +48,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/shared/Logo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/Layout" />
@@ -83,7 +96,8 @@
       <option name="presentableId" value="Default" />
       <updated>1573981491520</updated>
       <workItem from="1573981494080" duration="966000" />
-      <workItem from="1573982552847" duration="5174000" />
+      <workItem from="1573982552847" duration="5519000" />
+      <workItem from="1574001841357" duration="5537000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup">
       <created>1573983598268</created>
@@ -99,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573994979804</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added routing">
+      <created>1573995285302</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573995285302</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
