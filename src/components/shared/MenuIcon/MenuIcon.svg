@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="259" height="211" viewBox="0 0 259 211">
+    <defs>
+        <clipPath id="clip-path">
+            <rect width="259" height="211" fill="none"/>
+        </clipPath>
+    </defs>
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" clip-path="url(#clip-path)">
+        <g transform="translate(-299 -112)">
+            <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(299 112)" fill="#767676" stroke="#707070"
+               stroke-width="1">
+                <rect width="259" height="13" stroke="none"/>
+                <rect x="0.5" y="0.5" width="258" height="12" fill="none"/>
+            </g>
+        </g>
+        <g transform="translate(-299 -47)">
+            <g id="Rectangle_1-2" data-name="Rectangle 1" transform="translate(299 112)" fill="#767676" stroke="#707070"
+               stroke-width="1">
+                <rect width="259" height="13" stroke="none"/>
+                <rect x="0.5" y="0.5" width="258" height="12" fill="none"/>
+            </g>
+        </g>
+        <g transform="translate(-299 18)">
+            <g id="Rectangle_1-3" data-name="Rectangle 1" transform="translate(299 112)" fill="#767676" stroke="#707070"
+               stroke-width="1">
+                <rect width="259" height="13" stroke="none"/>
+                <rect x="0.5" y="0.5" width="258" height="12" fill="none"/>
+            </g>
+        </g>
+        <g transform="translate(-299 83)">
+            <g id="Rectangle_1-4" data-name="Rectangle 1" transform="translate(299 112)" fill="#767676" stroke="#707070"
+               stroke-width="1">
+                <rect width="259" height="13" stroke="none"/>
+                <rect x="0.5" y="0.5" width="258" height="12" fill="none"/>
+            </g>
+        </g>
+    </g>
+</svg>
