@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed0b3153-9f37-4133-b949-3978eb3e2953" name="Default Changelist" comment="">
+    <list default="true" id="ed0b3153-9f37-4133-b949-3978eb3e2953" name="Default Changelist" comment="Added routing">
+      <change afterPath="$PROJECT_DIR$/src/context/LoginContext.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/Logo/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Logo/Logo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/MenuIcon/MenuIcon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/MenuIcon/MenuIcon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/router-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/router-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -105,7 +104,11 @@
       <workItem from="1573982552847" duration="5519000" />
       <workItem from="1574001841357" duration="5782000" />
       <workItem from="1574121068823" duration="1837000" />
-      <workItem from="1574286312912" duration="2679000" />
+      <workItem from="1574286312912" duration="6665000" />
+      <workItem from="1574374713001" duration="7524000" />
+      <workItem from="1574452787886" duration="969000" />
+      <workItem from="1574596525380" duration="104000" />
+      <workItem from="1574619938850" duration="5874000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup">
       <created>1573983598268</created>
@@ -135,11 +138,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574039321346</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added images and logos">
+      <created>1574366105774</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574366105774</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -155,10 +168,15 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial project setup" />
-    <MESSAGE value="Added routing" />
+    <MESSAGE value="Adjusted css" />
     <MESSAGE value="Added images and logos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added images and logos" />
+    <MESSAGE value="Added routing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added routing" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

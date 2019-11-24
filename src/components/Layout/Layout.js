@@ -1,23 +1,66 @@
-import React, {lazy, Suspense} from 'react';
+import React, {lazy, Suspense, useState} from 'react';
 import RouterConfig from "./router-config";
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import {Route, Switch} from "react-router-dom";
 import Loading from "../shared/Loading/Loding";
 import Header from "./Header/Header";
+import LoginContext from "../../context/LoginContext";
+
 const NotFound = lazy(() => import('../views/NotFound/NotFound'));
 
+const WithSignIn = ({signInInfo, setSignInInfo, children}) => <LoginContext.Provider
+    value={{signInInfo, setSignInInfo}}>
+    {children}
+</LoginContext.Provider>;
 
-const Layout = () => <div>
-    <Header />
-    <Router>
-        <Suspense fallback={<Loading/>}>
-            <Switch>
-                {RouterConfig && RouterConfig.map && RouterConfig.map(route => <Route key={route.path} exact={route.exact}
-                                                                                      path={route.path}
-                                                                                      component={route.component}/>)}
-                <Route component={NotFound}/>
-            </Switch>
-        </Suspense>
-    </Router>
-</div>;
+const WithLayout = ({children}) => <><Header/>{children}</>;
+
+/**
+ * This function prepares the context and layout of pages,
+ * If there are any page specific customizations they should be specified here
+ * rather than adding custom logic inside functions.
+ * For example Login and registration pages should not have any header.
+ *
+ * Also this function makes sure that proper context information is provided for all the components
+ * For example :- Except registration page, all the routes should have access to current signin-info
+ * Only login page will be allowed to edit the login info inside the context.
+ * @type {Function}
+ */
+const prepareLayoutAndSetContextBasedOnPath = (route, currentSigninInfo, setSignInInfo) => {
+    let routingComponent = null;
+    switch (route.path) {
+        case RouterConfig.LOGIN.path :
+            routingComponent = (<WithSignIn setSignInInfo={setSignInInfo}>
+                <route.component/>
+            </WithSignIn>);
+            break;
+
+        case RouterConfig.REGISTER.path :
+            routingComponent = <route.component/>;
+            break;
+
+        default:
+            routingComponent = (<WithSignIn signInInfo={currentSigninInfo}>
+                <WithLayout>
+                    <route.component/>
+                </WithLayout>
+            </WithSignIn>);
+
+    }
+    return routingComponent;
+};
+
+const Layout = () => {
+    const [signInInfo, setSignInInfo] = useState();
+
+    return <Suspense fallback={<Loading/>}>
+        <Switch>
+            {RouterConfig && Object.values(RouterConfig)
+                .map(route => <Route key={route.path} exact={route.exact}
+                                     path={route.path}
+                                     component={prepareLayoutAndSetContextBasedOnPath.bind(null, route, signInInfo, setSignInInfo)}/>)}
+            <Route component={NotFound}/>
+        </Switch>
+    </Suspense>;
+};
 
 export default Layout;
