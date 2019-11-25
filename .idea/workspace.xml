@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed0b3153-9f37-4133-b949-3978eb3e2953" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/shared/icons/User/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/icons/User/user-icon.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/MenuIcon/MenuIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/icons/Menu/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/MenuIcon/MenuIcon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/icons/Menu/MenuIcon.svg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +106,7 @@
       <workItem from="1574374713001" duration="7524000" />
       <workItem from="1574452787886" duration="969000" />
       <workItem from="1574596525380" duration="104000" />
-      <workItem from="1574619938850" duration="8987000" />
+      <workItem from="1574619938850" duration="9560000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup">
       <created>1573983598268</created>
@@ -155,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574637936840</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added header styling">
+      <created>1574642911766</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574642911766</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +186,8 @@
     <MESSAGE value="Adjusted css" />
     <MESSAGE value="Added images and logos" />
     <MESSAGE value="Added routing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added routing" />
+    <MESSAGE value="Added header styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added header styling" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
