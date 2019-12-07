@@ -1,0 +1,27 @@
+$close-button-margins: 20px;
+$close-button-size: 20px;
+
+.Nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ededed;
+  transform: translateX(-100%);
+  width: 100vw;
+  height: 100vh;
+}
+
+.open {
+  transform: translateX(0);
+  z-index: 1;
+}
+
+.closeButton {
+  position: absolute;
+  top: $close-button-margins;
+  right: $close-button-margins;
+}
+
+.closeButton img {
+  height: $close-button-size;
+}

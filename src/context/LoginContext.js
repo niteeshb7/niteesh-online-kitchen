@@ -1,4 +1,4 @@
-import React from 'react';
+import {createContext} from 'react';
 
-const LoginContext = React.createContext(null);
+const LoginContext = createContext(null);
 export default LoginContext;

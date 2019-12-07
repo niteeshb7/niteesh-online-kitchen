@@ -18,7 +18,7 @@ const NotFound = lazy(() => import('../views/NotFound/NotFound'));
  * Only login page will be allowed to edit the login info inside the context.
  * @type {Function}
  */
-const prepareLayoutAndSetContextBasedOnPath = (route, currentSigninInfo, setSignInInfo) => {
+const prepareLayoutAndSetContextBasedOnPath = (route, currentSigninInfo, setSignInInfo, openNav, setNavOpen) => {
     let routingComponent;
     switch (route.path) {
         case RouterConfig.LOGIN.path :
@@ -33,7 +33,7 @@ const prepareLayoutAndSetContextBasedOnPath = (route, currentSigninInfo, setSign
 
         default:
             routingComponent = (<WithSignIn signInInfo={currentSigninInfo}>
-                <WithLayout>
+                <WithLayout openNav={openNav} setNavOpen={setNavOpen}>
                     <route.component/>
                 </WithLayout>
             </WithSignIn>);
@@ -44,13 +44,14 @@ const prepareLayoutAndSetContextBasedOnPath = (route, currentSigninInfo, setSign
 
 const Layout = () => {
     const [signInInfo, setSignInInfo] = useState();
+    const [openNav, setNavOpen] = useState();
 
     return <Suspense fallback={<Loading/>}>
         <Switch>
             {RouterConfig && Object.values(RouterConfig)
                 .map(route => <Route key={route.path} exact={route.exact}
                                      path={route.path}
-                                     component={prepareLayoutAndSetContextBasedOnPath.bind(null, route, signInInfo, setSignInInfo)}/>)}
+                                     component={prepareLayoutAndSetContextBasedOnPath.bind(null, route, signInInfo, setSignInInfo, openNav, setNavOpen)}/>)}
             <Route component={NotFound}/>
         </Switch>
     </Suspense>;
