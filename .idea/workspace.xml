@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed0b3153-9f37-4133-b949-3978eb3e2953" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/NavigationBar/NavigationBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/views/ContactUs/ContactUs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/views/Orders/Orders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/views/Profile/Profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/views/Support/Support.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/router-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/router-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/views/Register/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/views/Register/Register.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +37,11 @@
   <component name="ProjectId" id="1TjlfvLgKULoexnvu17WL1TBsON" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -61,18 +71,6 @@
       <recent name="$PROJECT_DIR$/src/components/shared/Logo" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -87,6 +85,18 @@
       <envs />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -106,7 +116,11 @@
       <workItem from="1574374713001" duration="7524000" />
       <workItem from="1574452787886" duration="969000" />
       <workItem from="1574596525380" duration="104000" />
-      <workItem from="1574619938850" duration="10829000" />
+      <workItem from="1574619938850" duration="11130000" />
+      <workItem from="1575238782034" duration="490000" />
+      <workItem from="1575334442961" duration="150000" />
+      <workItem from="1575334632119" duration="807000" />
+      <workItem from="1575681019272" duration="1586000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup">
       <created>1573983598268</created>
@@ -185,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574645541189</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Updated header css">
+      <created>1574645868210</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1574645868210</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,5 +242,27 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="410" y="101" key="CommitChangelistDialog2" timestamp="1575683023333">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="410" y="101" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1575683023333" />
+    <state width="688" height="196" key="GridCell.Tab.0.bottom" timestamp="1575682924196">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="688" height="196" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1575682924196" />
+    <state width="688" height="196" key="GridCell.Tab.0.center" timestamp="1575682924195">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="688" height="196" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1575682924195" />
+    <state width="688" height="196" key="GridCell.Tab.0.left" timestamp="1575682924194">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="688" height="196" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1575682924194" />
+    <state width="688" height="196" key="GridCell.Tab.0.right" timestamp="1575682924195">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="688" height="196" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1575682924195" />
   </component>
 </project>
