@@ -11,6 +11,7 @@ $close-button-size: 20px;
   transform: translateX(-100%);
   width: 100vw;
   height: 100vh;
+  z-index: 1;
 }
 
 .Nav ul {
@@ -38,8 +39,13 @@ $close-button-size: 20px;
 }
 
 .open {
+  animation: navigate-in .5s ease-out;
   transform: translateX(0);
-  z-index: 1;
+}
+
+.close {
+  animation: navigate-out .5s ease-in;
+  transform: translateX(-100%);
 }
 
 .closeButton {
@@ -50,4 +56,28 @@ $close-button-size: 20px;
 
 .closeButton img {
   height: $close-button-size;
+}
+
+@keyframes navigate-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes navigate-out {
+  0% {
+    opacity: 100;
+    transform: translateX(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
 }

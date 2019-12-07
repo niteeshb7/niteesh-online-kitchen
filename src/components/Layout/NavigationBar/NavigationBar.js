@@ -11,7 +11,7 @@ const NavigationBar = () => {
     const {openNav, setNavOpen} = useContext(NavigationContext);
     const history = useHistory();
 
-    return <nav className={[styles.Nav, openNav ? styles.open : null].join(' ')}>
+    return <nav className={[styles.Nav, openNav ? styles.open : styles.close].join(' ')}>
         <div className={styles.closeButton} onClick={() => setNavOpen(false)}>
             <CloseButton/>
         </div>
