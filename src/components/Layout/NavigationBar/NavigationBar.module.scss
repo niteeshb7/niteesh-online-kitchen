@@ -33,6 +33,10 @@ $close-button-size: 20px;
   align-items: center;
 }
 
+.Nav li:hover, .Nav li:focus {
+  background-color: $nav-hover-background;
+}
+
 .open {
   transform: translateX(0);
   z-index: 1;
