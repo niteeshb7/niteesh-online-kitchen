@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed0b3153-9f37-4133-b949-3978eb3e2953" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/NavigationBar/NavigationBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/views/ContactUs/ContactUs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/views/Orders/Orders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/views/Profile/Profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/views/Support/Support.js" afterDir="false" />
+    <list default="true" id="ed0b3153-9f37-4133-b949-3978eb3e2953" name="Default Changelist" comment="Refactored code to split Layout into separate components">
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/hoc/WithLayout/WithLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/hoc/WithSignIn.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/router-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/router-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/views/Register/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/views/Register/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +116,7 @@
       <workItem from="1575238782034" duration="490000" />
       <workItem from="1575334442961" duration="150000" />
       <workItem from="1575334632119" duration="807000" />
-      <workItem from="1575681019272" duration="1586000" />
+      <workItem from="1575681019272" duration="2653000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup">
       <created>1573983598268</created>
@@ -206,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574645868210</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added some pages">
+      <created>1575683054850</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1575683054850</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,31 +241,37 @@
     <MESSAGE value="Added header styling" />
     <MESSAGE value="Updated user icon" />
     <MESSAGE value="Updated header css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated header css" />
+    <MESSAGE value="Added some pages" />
+    <MESSAGE value="Refactored code to split Layout into separate components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored code to split Layout into separate components" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="410" y="101" key="CommitChangelistDialog2" timestamp="1575683023333">
+    <state x="410" y="101" key="CommitChangelistDialog2" timestamp="1575683912130">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="410" y="101" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1575683023333" />
-    <state width="688" height="196" key="GridCell.Tab.0.bottom" timestamp="1575682924196">
+    <state x="410" y="101" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1575683912130" />
+    <state width="688" height="196" key="GridCell.Tab.0.bottom" timestamp="1575683865716">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="688" height="196" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1575682924196" />
-    <state width="688" height="196" key="GridCell.Tab.0.center" timestamp="1575682924195">
+    <state width="688" height="196" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1575683865716" />
+    <state width="688" height="196" key="GridCell.Tab.0.center" timestamp="1575683865715">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="688" height="196" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1575682924195" />
-    <state width="688" height="196" key="GridCell.Tab.0.left" timestamp="1575682924194">
+    <state width="688" height="196" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1575683865715" />
+    <state width="688" height="196" key="GridCell.Tab.0.left" timestamp="1575683865714">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="688" height="196" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1575682924194" />
-    <state width="688" height="196" key="GridCell.Tab.0.right" timestamp="1575682924195">
+    <state width="688" height="196" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1575683865714" />
+    <state width="688" height="196" key="GridCell.Tab.0.right" timestamp="1575683865715">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="688" height="196" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1575682924195" />
+    <state width="688" height="196" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1575683865715" />
+    <state x="440" y="238" key="Vcs.Push.Dialog.v2" timestamp="1575683057434">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="440" y="238" key="Vcs.Push.Dialog.v2/0.23.1680.947@0.23.1680.947" timestamp="1575683057434" />
   </component>
 </project>
