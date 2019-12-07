@@ -1,9 +1,11 @@
+@import "../../shared/scss/colors";
+
 .Header {
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-  box-shadow: 0px 0px 0px -1px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.14), 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 0 -1px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.14), 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
   margin-bottom: 14px;
   background: linear-gradient(to bottom, #ffffff 0%, #fbfbfb38 47%, #fcfdf5 100%);
 }
@@ -23,7 +25,7 @@
   font-weight: 400;
   font-style: normal;
   font-size: 28px;
-  color: #ff3880;
+  color: $pink-logo;
   margin-left: .1em;
 }
 

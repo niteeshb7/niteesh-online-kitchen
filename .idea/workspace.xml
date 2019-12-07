@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed0b3153-9f37-4133-b949-3978eb3e2953" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/shared/icons/CloseButton/CloseButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/icons/CloseButton/close_button.svg" afterDir="false" />
+    <list default="true" id="0228e7ec-9582-4505-bb3f-382a4dcf20a2" name="Default Changelist" comment="Added Navigation bar styles&#10;&#10;Signed-off-by: niteesh &lt;niteeshb7@gmail.com&gt;">
+      <change afterPath="$PROJECT_DIR$/src/components/shared/scss/colors.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Header/Header.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout/NavigationBar/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/NavigationBar/NavigationBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout/NavigationBar/NavigationBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/NavigationBar/NavigationBar.module.scss" afterDir="false" />
     </list>
@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -63,17 +63,17 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/shared/icons/CloseButton" />
+      <recent name="$PROJECT_DIR$/src/components/shared/icons/User" />
+      <recent name="$PROJECT_DIR$/src/components/shared/Logo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/Layout/hoc/WithSignIn" />
       <recent name="$PROJECT_DIR$/src/components/shared/icons" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/Layout" />
       <recent name="$PROJECT_DIR$/src/components/views" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/shared/icons/CloseButton" />
-      <recent name="$PROJECT_DIR$/src/components/shared/icons/User" />
-      <recent name="$PROJECT_DIR$/src/components/shared/Logo" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -292,32 +292,33 @@
     <MESSAGE value="Refactored code to split Layout into separate components&#10;&#10;Signed-off-by: niteesh &lt;niteeshb7@gmail.com&gt;" />
     <MESSAGE value="Added Navigation bar" />
     <MESSAGE value="Added Navigation bar&#10;&#10;Signed-off-by: niteesh &lt;niteeshb7@gmail.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Navigation bar&#10;&#10;Signed-off-by: niteesh &lt;niteeshb7@gmail.com&gt;" />
+    <MESSAGE value="Added Navigation bar styles&#10;&#10;Signed-off-by: niteesh &lt;niteeshb7@gmail.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Navigation bar styles&#10;&#10;Signed-off-by: niteesh &lt;niteeshb7@gmail.com&gt;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="410" y="101" key="CommitChangelistDialog2" timestamp="1575708030035">
+    <state x="410" y="101" key="CommitChangelistDialog2" timestamp="1575714008929">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="410" y="101" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1575708030035" />
-    <state width="1659" height="155" key="GridCell.Tab.0.bottom" timestamp="1575707999880">
+    <state x="410" y="101" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1575714008929" />
+    <state width="1659" height="155" key="GridCell.Tab.0.bottom" timestamp="1575713983862">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="155" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1575707999880" />
-    <state width="1659" height="155" key="GridCell.Tab.0.center" timestamp="1575707999879">
+    <state width="1659" height="155" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1575713983862" />
+    <state width="1659" height="155" key="GridCell.Tab.0.center" timestamp="1575713983861">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="155" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1575707999879" />
-    <state width="1659" height="155" key="GridCell.Tab.0.left" timestamp="1575707999878">
+    <state width="1659" height="155" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1575713983861" />
+    <state width="1659" height="155" key="GridCell.Tab.0.left" timestamp="1575713983861">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="155" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1575707999878" />
-    <state width="1659" height="155" key="GridCell.Tab.0.right" timestamp="1575707999879">
+    <state width="1659" height="155" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1575713983861" />
+    <state width="1659" height="155" key="GridCell.Tab.0.right" timestamp="1575713983862">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="155" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1575707999879" />
+    <state width="1659" height="155" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1575713983862" />
     <state x="168" y="107" key="MergeDialog" timestamp="1575688249925">
       <screen x="0" y="23" width="1680" height="947" />
     </state>

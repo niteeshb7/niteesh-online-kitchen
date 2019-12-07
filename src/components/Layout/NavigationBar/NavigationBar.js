@@ -6,13 +6,13 @@ import styles from './NavigationBar.module.scss';
 import NavigationContext from "../../../context/NavigationContext";
 import CloseButton from "../../shared/icons/CloseButton/CloseButton";
 
-const NavigationBar = ({open}) => {
+const NavigationBar = () => {
     const {signInInfo} = useContext(LoginContext);
-    const {openNav, setOpenNav} = useContext(NavigationContext);
+    const {openNav, setNavOpen} = useContext(NavigationContext);
     const history = useHistory();
 
     return <nav className={[styles.Nav, openNav ? styles.open : null].join(' ')}>
-        <div className={styles.closeButton}>
+        <div className={styles.closeButton} onClick={() => setNavOpen(false)}>
             <CloseButton/>
         </div>
 
@@ -20,7 +20,7 @@ const NavigationBar = ({open}) => {
             {RouterConfig && Object.values(RouterConfig).filter(route =>
                 [RouterConfig.ORDERS.path, RouterConfig.PROFILE.path].includes(route && route.path) ? signInInfo : true
             ).map(route => route &&
-                <li key={route.path} onClick={() => history.push(route.path)}>{route.displayText}</li>)}
+                <li key={route.path} onClick={() => history.push(route.path)}><span>{route.displayText}</span></li>)}
         </ul>
     </nav>;
 
