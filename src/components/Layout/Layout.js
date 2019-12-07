@@ -2,17 +2,10 @@ import React, {lazy, Suspense, useState} from 'react';
 import RouterConfig from "./router-config";
 import {Route, Switch} from "react-router-dom";
 import Loading from "../shared/Loading/Loding";
-import Header from "./Header/Header";
-import LoginContext from "../../context/LoginContext";
+import WithLayout from "./hoc/WithLayout/WithLayout";
+import WithSignIn from "./hoc/WithSignIn/WithSignIn";
 
 const NotFound = lazy(() => import('../views/NotFound/NotFound'));
-
-const WithSignIn = ({signInInfo, setSignInInfo, children}) => <LoginContext.Provider
-    value={{signInInfo, setSignInInfo}}>
-    {children}
-</LoginContext.Provider>;
-
-const WithLayout = ({children}) => <><Header/>{children}</>;
 
 /**
  * This function prepares the context and layout of pages,
@@ -26,7 +19,7 @@ const WithLayout = ({children}) => <><Header/>{children}</>;
  * @type {Function}
  */
 const prepareLayoutAndSetContextBasedOnPath = (route, currentSigninInfo, setSignInInfo) => {
-    let routingComponent = null;
+    let routingComponent;
     switch (route.path) {
         case RouterConfig.LOGIN.path :
             routingComponent = (<WithSignIn setSignInInfo={setSignInInfo}>
