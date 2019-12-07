@@ -9,18 +9,16 @@ const Orders = lazy(() => import('../views/Orders/Orders'));
 const Profile = lazy(() => import('../views/Profile/Profile'));
 const Support = lazy(() => import('../views/Support/Support'));
 
-
 const RouterConfig = {
-    HOME: {path: '/', component: Home, exact: true},
-    LOGIN: {path: '/login', component: Login},
-    REGISTER: {path: '/register', component: Register},
-    ABOUT: {path: '/about', component: About},
-    CONTACT_US: {path: '/contact', component: ContactUs},
-    ORDERS: {path: '/orders', component: Orders},
-    PROFILE: {path: '/profile', component: Profile},
-    SUPPORT: {path: '/support', component: Support}
+    HOME: {path: '/', component: Home, exact: true, displayText: 'Home'},
+    LOGIN: {path: '/login', component: Login, displayText: 'Login'},
+    REGISTER: {path: '/register', component: Register, displayText: 'Sign Up'},
+    ABOUT: {path: '/about', component: About, displayText: 'About'},
+    CONTACT_US: {path: '/contact', component: ContactUs, displayText: 'Contact us'},
+    ORDERS: {path: '/orders', component: Orders, displayText: 'Orders'},
+    PROFILE: {path: '/profile', component: Profile, displayText: 'Profile'},
+    SUPPORT: {path: '/support', component: Support, displayText: 'Support'}
 };
-
 
 export default RouterConfig;
 
