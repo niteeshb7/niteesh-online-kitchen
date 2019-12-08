@@ -10,9 +10,10 @@ const NavigationBar = () => {
     const {signInInfo} = useContext(LoginContext);
     const {openNav, setNavOpen} = useContext(NavigationContext);
     const history = useHistory();
+    const classes = [styles.Nav, openNav === true ? styles.open : openNav === false ? styles.close : null];
 
     return <nav
-        className={[styles.Nav, openNav === true ? styles.open : openNav === false ? styles.close : null].join(' ')}>
+        className={classes.join(' ')}>
         <div className={styles.closeButton} onClick={() => setNavOpen(false)}>
             <CloseButton/>
         </div>
@@ -21,7 +22,10 @@ const NavigationBar = () => {
             {RouterConfig && Object.values(RouterConfig).filter(route =>
                 [RouterConfig.ORDERS.path, RouterConfig.PROFILE.path].includes(route && route.path) ? signInInfo : true
             ).map(route => route &&
-                <li key={route.path} onClick={() => history.push(route.path)}><span>{route.displayText}</span></li>)}
+                <li key={route.path} onClick={() => {
+                    setNavOpen(null);
+                    history.push(route.path);
+                }}><span>{route.displayText}</span></li>)}
         </ul>
     </nav>;
 

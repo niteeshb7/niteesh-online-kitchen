@@ -4,6 +4,7 @@
     <list default="true" id="0228e7ec-9582-4505-bb3f-382a4dcf20a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout/NavigationBar/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/NavigationBar/NavigationBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/NavigationBar/NavigationBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/NavigationBar/NavigationBar.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +106,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ed0b3153-9f37-4133-b949-3978eb3e2953" name="Default Changelist" comment="" />
+      <changelist id="0228e7ec-9582-4505-bb3f-382a4dcf20a2" name="Default Changelist" comment="" />
       <created>1573981491520</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -125,6 +126,7 @@
       <workItem from="1575681019272" duration="5672000" />
       <workItem from="1575687197552" duration="554000" />
       <workItem from="1575704410309" duration="4787000" />
+      <workItem from="1575805209454" duration="727000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup">
       <created>1573983598268</created>
@@ -280,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575726269425</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Completed navigation bar animation">
+      <created>1575727089365</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1575727089365</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,26 +334,26 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="410" y="101" key="CommitChangelistDialog2" timestamp="1575726269235">
+    <state x="410" y="101" key="CommitChangelistDialog2" timestamp="1575727089202">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="410" y="101" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1575726269235" />
-    <state width="1659" height="155" key="GridCell.Tab.0.bottom" timestamp="1575726231719">
+    <state x="410" y="101" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1575727089202" />
+    <state width="1659" height="268" key="GridCell.Tab.0.bottom" timestamp="1575806125365">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="155" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1575726231719" />
-    <state width="1659" height="155" key="GridCell.Tab.0.center" timestamp="1575726231718">
+    <state width="1659" height="268" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1575806125365" />
+    <state width="1659" height="268" key="GridCell.Tab.0.center" timestamp="1575806125364">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="155" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1575726231718" />
-    <state width="1659" height="155" key="GridCell.Tab.0.left" timestamp="1575726231717">
+    <state width="1659" height="268" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1575806125364" />
+    <state width="1659" height="268" key="GridCell.Tab.0.left" timestamp="1575806125363">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="155" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1575726231717" />
-    <state width="1659" height="155" key="GridCell.Tab.0.right" timestamp="1575726231718">
+    <state width="1659" height="268" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1575806125363" />
+    <state width="1659" height="268" key="GridCell.Tab.0.right" timestamp="1575806125364">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="155" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1575726231718" />
+    <state width="1659" height="268" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1575806125364" />
     <state x="168" y="107" key="MergeDialog" timestamp="1575688249925">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
@@ -353,9 +362,9 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="551" y="220" key="MultipleFileMergeDialog/0.23.1680.947@0.23.1680.947" timestamp="1575688249953" />
-    <state x="440" y="238" key="Vcs.Push.Dialog.v2" timestamp="1575726271491">
+    <state x="440" y="238" key="Vcs.Push.Dialog.v2" timestamp="1575727091244">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="440" y="238" key="Vcs.Push.Dialog.v2/0.23.1680.947@0.23.1680.947" timestamp="1575726271491" />
+    <state x="440" y="238" key="Vcs.Push.Dialog.v2/0.23.1680.947@0.23.1680.947" timestamp="1575727091244" />
   </component>
 </project>

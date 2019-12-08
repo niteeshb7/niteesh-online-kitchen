@@ -40,12 +40,12 @@ $close-button-size: 20px;
 
 .open {
   animation: navigate-in .5s ease-out;
-  transform: translateX(0);
+  animation-fill-mode: forwards;
 }
 
 .close {
   animation: navigate-out .5s ease-in;
-  transform: translateX(-100%);
+  animation-fill-mode: forwards;
 }
 
 .closeButton {
