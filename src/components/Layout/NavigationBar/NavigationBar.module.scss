@@ -16,13 +16,13 @@ $close-button-size: 20px;
 
 .Nav.shown {
   transform: translateX(0);
-  animation: addPinkyBackground .4s ease-in;
+  animation: addBackground .4s ease-in;
   animation-fill-mode: forwards;
 }
 
 .Nav.hidden {
   transform: translateX(0);
-  animation: removePinkyBackground .4s ease-out, hideNavInLeft 0s ease-out .4s;
+  animation: removeBackground .4s ease-out, hideNavInLeft 0s ease-out .4s;
   animation-fill-mode: forwards;
 }
 
@@ -31,7 +31,7 @@ $close-button-size: 20px;
   width: 60%;
   height: 100%;
   background-color: white;
-  box-shadow: 0 8px 10px -5px rgba(0, 0, 0, 0.2), 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 10px -5px rgba(0, 0, 0, 0.4), 0 16px 24px 2px rgba(0, 0, 0, 0.29), 0 6px 30px 5px rgba(0, 0, 0, 0.24);
 }
 
 .Nav ul {
@@ -100,19 +100,19 @@ $close-button-size: 20px;
   }
 }
 
-@keyframes addPinkyBackground {
+@keyframes addBackground {
   0% {
     background-color: transparent;
   }
 
   100% {
-    background-color: rgba(255, 149, 203, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }
 
-@keyframes removePinkyBackground {
+@keyframes removeBackground {
   0% {
-    background-color: rgba(255, 149, 203, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 
   100% {
