@@ -12,7 +12,7 @@ const NavigationBar = () => {
     const navClasses = [styles.Nav];
     const navItemsContainerClasses = [styles.NavItemsContainer];
 
-    /*Null scenario is not explicitly handled here on purpose,
+    /* Null scenario is not explicitly handled here on purpose,
     otherwise I also know it looks stupid, but I dont want to do anything if no value is assigned
     i.e. when component is fist initialized */
     if (openNav === true) {
@@ -33,7 +33,7 @@ const NavigationBar = () => {
                     <li key={route.path} onClick={() => {
                         setNavOpen(null);
                         history.push(route.path);
-                    }}><span>{route.displayText}</span></li>)}
+                    }}>{route.linkIcon && <route.linkIcon/>}<span>{route.displayText}</span></li>)}
             </ul>
         </div>
     </nav>;

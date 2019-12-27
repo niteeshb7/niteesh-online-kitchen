@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0228e7ec-9582-4505-bb3f-382a4dcf20a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/shared/icons/Home/Home-icon-pink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/icons/Home/Home-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/icons/Home/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/NavigationBar/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/NavigationBar/NavigationBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/NavigationBar/NavigationBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/NavigationBar/NavigationBar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/router-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/router-config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -55,7 +60,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/shared/icons/CloseButton" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/shared/icons/Home" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -67,17 +72,18 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/shared/icons/CloseButton" />
-      <recent name="$PROJECT_DIR$/src/components/shared/icons/User" />
-      <recent name="$PROJECT_DIR$/src/components/shared/Logo" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/Layout/hoc/WithSignIn" />
       <recent name="$PROJECT_DIR$/src/components/shared/icons" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/Layout" />
       <recent name="$PROJECT_DIR$/src/components/views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/shared/icons/Home" />
+      <recent name="$PROJECT_DIR$/src/components/shared/icons/CloseButton" />
+      <recent name="$PROJECT_DIR$/src/components/shared/icons/User" />
+      <recent name="$PROJECT_DIR$/src/components/shared/Logo" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -135,7 +141,9 @@
       <workItem from="1575805209454" duration="727000" />
       <workItem from="1576266807733" duration="334000" />
       <workItem from="1576271302856" duration="665000" />
-      <workItem from="1577404773795" duration="11446000" />
+      <workItem from="1577404773795" duration="11623000" />
+      <workItem from="1577443755024" duration="3591000" />
+      <workItem from="1577470058228" duration="531000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup">
       <created>1573983598268</created>
@@ -340,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577418738436</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="updated dependencies">
+      <created>1577419314194</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1577419314194</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,32 +399,33 @@
     <MESSAGE value="Added box-shadow for navigation drawer" />
     <MESSAGE value="fixed navigation css issues" />
     <MESSAGE value="updated navigation box shadow color" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated navigation box shadow color" />
+    <MESSAGE value="updated dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated dependencies" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="410" y="101" key="CommitChangelistDialog2" timestamp="1577418738261">
+    <state x="410" y="101" key="CommitChangelistDialog2" timestamp="1577486407001">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="410" y="101" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1577418738261" />
-    <state width="1659" height="268" key="GridCell.Tab.0.bottom" timestamp="1577418984572">
+    <state x="410" y="101" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1577486407001" />
+    <state width="1659" height="268" key="GridCell.Tab.0.bottom" timestamp="1577486366564">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1577418984572" />
-    <state width="1659" height="268" key="GridCell.Tab.0.center" timestamp="1577418984571">
+    <state width="1659" height="268" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1577486366564" />
+    <state width="1659" height="268" key="GridCell.Tab.0.center" timestamp="1577486366563">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1577418984571" />
-    <state width="1659" height="268" key="GridCell.Tab.0.left" timestamp="1577418984571">
+    <state width="1659" height="268" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1577486366563" />
+    <state width="1659" height="268" key="GridCell.Tab.0.left" timestamp="1577486366562">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1577418984571" />
-    <state width="1659" height="268" key="GridCell.Tab.0.right" timestamp="1577418984572">
+    <state width="1659" height="268" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1577486366562" />
+    <state width="1659" height="268" key="GridCell.Tab.0.right" timestamp="1577486366564">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1577418984572" />
+    <state width="1659" height="268" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1577486366564" />
     <state x="168" y="107" key="MergeDialog" timestamp="1575688249925">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
@@ -418,9 +434,9 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="551" y="220" key="MultipleFileMergeDialog/0.23.1680.947@0.23.1680.947" timestamp="1575688249953" />
-    <state x="440" y="238" key="Vcs.Push.Dialog.v2" timestamp="1577418740327">
+    <state x="440" y="238" key="Vcs.Push.Dialog.v2" timestamp="1577419316298">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="440" y="238" key="Vcs.Push.Dialog.v2/0.23.1680.947@0.23.1680.947" timestamp="1577418740327" />
+    <state x="440" y="238" key="Vcs.Push.Dialog.v2/0.23.1680.947@0.23.1680.947" timestamp="1577419316298" />
   </component>
 </project>
