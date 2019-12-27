@@ -9,11 +9,12 @@ const NavigationBar = () => {
     const {signInInfo} = useContext(LoginContext);
     const {openNav, setNavOpen} = useContext(NavigationContext);
     const history = useHistory();
-    const classes = [styles.Nav, openNav === true ? styles.open : openNav === false ? styles.close : null];
+    const navClasses = [styles.Nav, openNav === true ? styles.shown : null];
+    const navItemsContainerClasses = [styles.NavItemsContainer, openNav === true ? styles.open : openNav === false ? styles.close : null];
 
     return <nav
-        className={classes.join(' ')}>
-        <div className={styles.NavItemsContainer} onBlur={setNavOpen.bind(null, false)}>
+        className={navClasses.join(' ')}>
+        <div className={navItemsContainerClasses.join(' ')}>
             <ul>
                 {RouterConfig && Object.values(RouterConfig).filter(route =>
                     [RouterConfig.ORDERS.path, RouterConfig.PROFILE.path].includes(route && route.path) ? signInInfo : true
