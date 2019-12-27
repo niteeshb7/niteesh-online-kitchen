@@ -20,6 +20,12 @@ $close-button-size: 20px;
   animation-fill-mode: forwards;
 }
 
+.Nav.hidden {
+  transform: translateX(-100%);
+  animation: hideNav .4s ease-out;
+  animation-fill-mode: forwards;
+}
+
 .NavItemsContainer {
   position: absolute;
   width: 60%;
@@ -101,5 +107,15 @@ $close-button-size: 20px;
 
   100% {
     background-color: rgba(255, 149, 203, 0.5);
+  }
+}
+
+@keyframes hideNav {
+  0% {
+    background-color: rgba(255, 149, 203, 0.5);
+  }
+
+  100% {
+    background-color: transparent;
   }
 }

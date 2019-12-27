@@ -9,8 +9,16 @@ const NavigationBar = () => {
     const {signInInfo} = useContext(LoginContext);
     const {openNav, setNavOpen} = useContext(NavigationContext);
     const history = useHistory();
-    const navClasses = [styles.Nav, openNav === true ? styles.shown : null];
-    const navItemsContainerClasses = [styles.NavItemsContainer, openNav === true ? styles.open : openNav === false ? styles.close : null];
+    const navClasses = [styles.Nav];
+    const navItemsContainerClasses = [styles.NavItemsContainer];
+
+    if (openNav === true) {
+        navClasses.push(styles.shown);
+        navItemsContainerClasses.push(styles.open);
+    } else if (openNav === false) {
+        navClasses.push(styles.hidden);
+        navItemsContainerClasses.push(styles.close);
+    }
 
     return <nav
         className={navClasses.join(' ')}>
