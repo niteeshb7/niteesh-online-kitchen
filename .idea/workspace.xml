@@ -136,7 +136,7 @@
       <workItem from="1575805209454" duration="727000" />
       <workItem from="1576266807733" duration="334000" />
       <workItem from="1576271302856" duration="665000" />
-      <workItem from="1577404773795" duration="7183000" />
+      <workItem from="1577404773795" duration="10351000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup">
       <created>1573983598268</created>
@@ -320,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577413845437</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added box-shadow for navigation drawer">
+      <created>1577414766668</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1577414766668</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,26 +375,26 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="410" y="101" key="CommitChangelistDialog2" timestamp="1577413845248">
+    <state x="410" y="101" key="CommitChangelistDialog2" timestamp="1577414766493">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="410" y="101" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1577413845248" />
-    <state width="1659" height="268" key="GridCell.Tab.0.bottom" timestamp="1577408856973">
+    <state x="410" y="101" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1577414766493" />
+    <state width="1659" height="268" key="GridCell.Tab.0.bottom" timestamp="1577418212519">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1577408856973" />
-    <state width="1659" height="268" key="GridCell.Tab.0.center" timestamp="1577408856972">
+    <state width="1659" height="268" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1577418212519" />
+    <state width="1659" height="268" key="GridCell.Tab.0.center" timestamp="1577418212518">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1577408856972" />
-    <state width="1659" height="268" key="GridCell.Tab.0.left" timestamp="1577408856972">
+    <state width="1659" height="268" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1577418212518" />
+    <state width="1659" height="268" key="GridCell.Tab.0.left" timestamp="1577418212518">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1577408856972" />
-    <state width="1659" height="268" key="GridCell.Tab.0.right" timestamp="1577408856973">
+    <state width="1659" height="268" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1577418212518" />
+    <state width="1659" height="268" key="GridCell.Tab.0.right" timestamp="1577418212519">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1577408856973" />
+    <state width="1659" height="268" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1577418212519" />
     <state x="168" y="107" key="MergeDialog" timestamp="1575688249925">
       <screen x="0" y="23" width="1680" height="947" />
     </state>

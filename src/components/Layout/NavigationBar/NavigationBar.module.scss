@@ -16,13 +16,13 @@ $close-button-size: 20px;
 
 .Nav.shown {
   transform: translateX(0);
-  animation: showNav .4s ease-in;
+  animation: addPinkyBackground .4s ease-in;
   animation-fill-mode: forwards;
 }
 
 .Nav.hidden {
-  transform: translateX(-100%);
-  animation: hideNav .4s ease-out;
+  transform: translateX(0);
+  animation: removePinkyBackground .4s ease-out, hideNavInLeft 0s ease-out .4s;
   animation-fill-mode: forwards;
 }
 
@@ -100,7 +100,7 @@ $close-button-size: 20px;
   }
 }
 
-@keyframes showNav {
+@keyframes addPinkyBackground {
   0% {
     background-color: transparent;
   }
@@ -110,12 +110,21 @@ $close-button-size: 20px;
   }
 }
 
-@keyframes hideNav {
+@keyframes removePinkyBackground {
   0% {
     background-color: rgba(255, 149, 203, 0.5);
   }
 
   100% {
     background-color: transparent;
+  }
+}
+
+@keyframes hideNavInLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
   }
 }

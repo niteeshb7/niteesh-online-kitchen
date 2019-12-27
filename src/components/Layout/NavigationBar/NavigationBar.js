@@ -12,6 +12,9 @@ const NavigationBar = () => {
     const navClasses = [styles.Nav];
     const navItemsContainerClasses = [styles.NavItemsContainer];
 
+    /*Null scenario is not explicitly handled here on purpose,
+    otherwise I also know it looks stupid, but I dont want to do anything if no value is assigned
+    i.e. when component is fist initialized */
     if (openNav === true) {
         navClasses.push(styles.shown);
         navItemsContainerClasses.push(styles.open);
@@ -21,7 +24,7 @@ const NavigationBar = () => {
     }
 
     return <nav
-        className={navClasses.join(' ')}>
+        className={navClasses.join(' ')} onClick={e => e.currentTarget === e.target ? setNavOpen(false) : null}>
         <div className={navItemsContainerClasses.join(' ')}>
             <ul>
                 {RouterConfig && Object.values(RouterConfig).filter(route =>
