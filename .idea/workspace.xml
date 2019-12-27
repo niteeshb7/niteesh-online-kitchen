@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0228e7ec-9582-4505-bb3f-382a4dcf20a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout/NavigationBar/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/NavigationBar/NavigationBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout/NavigationBar/NavigationBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/NavigationBar/NavigationBar.module.scss" afterDir="false" />
@@ -33,6 +34,13 @@
     <option name="hiddenUrls">
       <set>
         <option value="https://github.com/niteeshb7/niteesh-online-kitchen.git" />
+      </set>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
       </set>
     </option>
   </component>
@@ -127,6 +135,9 @@
       <workItem from="1575687197552" duration="554000" />
       <workItem from="1575704410309" duration="4787000" />
       <workItem from="1575805209454" duration="727000" />
+      <workItem from="1576266807733" duration="334000" />
+      <workItem from="1576271302856" duration="665000" />
+      <workItem from="1577404773795" duration="1652000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup">
       <created>1573983598268</created>
@@ -338,22 +349,22 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="410" y="101" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1575727089202" />
-    <state width="1659" height="268" key="GridCell.Tab.0.bottom" timestamp="1575806125365">
+    <state width="1659" height="268" key="GridCell.Tab.0.bottom" timestamp="1577408856973">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1575806125365" />
-    <state width="1659" height="268" key="GridCell.Tab.0.center" timestamp="1575806125364">
+    <state width="1659" height="268" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1577408856973" />
+    <state width="1659" height="268" key="GridCell.Tab.0.center" timestamp="1577408856972">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1575806125364" />
-    <state width="1659" height="268" key="GridCell.Tab.0.left" timestamp="1575806125363">
+    <state width="1659" height="268" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1577408856972" />
+    <state width="1659" height="268" key="GridCell.Tab.0.left" timestamp="1577408856972">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1575806125363" />
-    <state width="1659" height="268" key="GridCell.Tab.0.right" timestamp="1575806125364">
+    <state width="1659" height="268" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1577408856972" />
+    <state width="1659" height="268" key="GridCell.Tab.0.right" timestamp="1577408856973">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1575806125364" />
+    <state width="1659" height="268" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1577408856973" />
     <state x="168" y="107" key="MergeDialog" timestamp="1575688249925">
       <screen x="0" y="23" width="1680" height="947" />
     </state>

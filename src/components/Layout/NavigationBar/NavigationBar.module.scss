@@ -7,11 +7,18 @@ $close-button-size: 20px;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #ededed;
+  background-color: rgba(0, 0, 0, 0.5);
   transform: translateX(-100%);
   width: 100vw;
   height: 100vh;
   z-index: 1;
+}
+
+.NavItemsContainer {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  background-color: white;
 }
 
 .Nav ul {
@@ -21,9 +28,6 @@ $close-button-size: 20px;
 
 .Nav li {
   color: $pink-nav-bar;
-  font-size: 1.6em;
-  font-weight: 100;
-  text-transform: uppercase;
   padding: .5em 1em;
   text-align: center;
   margin-bottom: .3em;

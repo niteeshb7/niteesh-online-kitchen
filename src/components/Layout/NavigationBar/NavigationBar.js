@@ -4,7 +4,6 @@ import LoginContext from "../../../context/LoginContext";
 import RouterConfig from '../router-config';
 import styles from './NavigationBar.module.scss';
 import NavigationContext from "../../../context/NavigationContext";
-import CloseButton from "../../shared/icons/CloseButton/CloseButton";
 
 const NavigationBar = () => {
     const {signInInfo} = useContext(LoginContext);
@@ -14,19 +13,17 @@ const NavigationBar = () => {
 
     return <nav
         className={classes.join(' ')}>
-        <div className={styles.closeButton} onClick={() => setNavOpen(false)}>
-            <CloseButton/>
+        <div className={styles.NavItemsContainer} onBlur={setNavOpen.bind(null, false)}>
+            <ul>
+                {RouterConfig && Object.values(RouterConfig).filter(route =>
+                    [RouterConfig.ORDERS.path, RouterConfig.PROFILE.path].includes(route && route.path) ? signInInfo : true
+                ).map(route => route &&
+                    <li key={route.path} onClick={() => {
+                        setNavOpen(null);
+                        history.push(route.path);
+                    }}><span>{route.displayText}</span></li>)}
+            </ul>
         </div>
-
-        <ul>
-            {RouterConfig && Object.values(RouterConfig).filter(route =>
-                [RouterConfig.ORDERS.path, RouterConfig.PROFILE.path].includes(route && route.path) ? signInInfo : true
-            ).map(route => route &&
-                <li key={route.path} onClick={() => {
-                    setNavOpen(null);
-                    history.push(route.path);
-                }}><span>{route.displayText}</span></li>)}
-        </ul>
     </nav>;
 
 };
