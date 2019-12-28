@@ -44,19 +44,25 @@ $close-button-size: 20px;
   padding: .5em 1em;
   text-transform: capitalize;
   text-align: center;
-  height: 55px;
+  height: 64px;
   letter-spacing: .08em;
   word-spacing: .1em;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
-.Nav li img {
-  height: 22px;
-  display: inline-block;
-  padding: 3px;
-  margin-right: 1rem;
-  box-sizing: content-box;
+.Nav li > div {
+  height: 27px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-right: 5px;
+}
+
+.Nav li > div > img {
+  height: 100%;
 }
 
 .Nav li:hover, .Nav li:focus {

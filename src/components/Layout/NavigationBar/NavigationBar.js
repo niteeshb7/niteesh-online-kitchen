@@ -33,7 +33,9 @@ const NavigationBar = () => {
                     <li key={route.path} onClick={() => {
                         setNavOpen(null);
                         history.push(route.path);
-                    }}>{route.linkIcon && <route.linkIcon/>}<span>{route.displayText}</span></li>)}
+                    }}>
+                        <div>{route.linkIcon && <route.linkIcon/>}</div>
+                        <span>{route.displayText}</span></li>)}
             </ul>
         </div>
     </nav>;
