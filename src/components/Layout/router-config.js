@@ -1,5 +1,6 @@
 import {lazy} from 'react';
 import HomeIcon from '../shared/icons/Home/Home';
+import LoginIcon from '../shared/icons/Login/Login';
 
 const Home = lazy(() => import('../views/Home/Home'));
 const About = lazy(() => import('../views/About/About'));
@@ -12,7 +13,7 @@ const Support = lazy(() => import('../views/Support/Support'));
 
 const RouterConfig = {
     HOME: {path: '/', component: Home, exact: true, displayText: 'Home', linkIcon: HomeIcon},
-    LOGIN: {path: '/login', component: Login, displayText: 'Login', linkIcon: HomeIcon},
+    LOGIN: {path: '/login', component: Login, displayText: 'Login', linkIcon: LoginIcon},
     REGISTER: {path: '/register', component: Register, displayText: 'Sign Up', linkIcon: HomeIcon},
     ABOUT: {path: '/about', component: About, displayText: 'About', linkIcon: HomeIcon},
     CONTACT_US: {path: '/contact', component: ContactUs, displayText: 'Contact us', linkIcon: HomeIcon},

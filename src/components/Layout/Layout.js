@@ -11,7 +11,7 @@ const NotFound = lazy(() => import('../views/NotFound/NotFound'));
  * This function prepares the context and layout of pages,
  * If there are any page specific customizations they should be specified here
  * rather than adding custom logic inside functions.
- * For example Login and registration pages should not have any header.
+ * For example Login.js and registration pages should not have any header.
  *
  * Also this function makes sure that proper context information is provided for all the components
  * For example :- Except registration page, all the routes should have access to current signin-info
