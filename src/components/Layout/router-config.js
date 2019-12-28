@@ -3,6 +3,7 @@ import HomeIcon from '../shared/icons/Home/Home';
 import LoginIcon from '../shared/icons/Login/Login';
 import SignUpIcon from "../shared/icons/SignUp/SignUp";
 import AboutIcon from "../shared/icons/About/About";
+import ContactUsIcon from "../shared/icons/ContactUs/ContactUs";
 
 const Home = lazy(() => import('../views/Home/Home'));
 const About = lazy(() => import('../views/About/About'));
@@ -18,7 +19,7 @@ const RouterConfig = {
     LOGIN: {path: '/login', component: Login, displayText: 'Login', linkIcon: LoginIcon},
     REGISTER: {path: '/register', component: Register, displayText: 'Sign Up', linkIcon: SignUpIcon},
     ABOUT: {path: '/about', component: About, displayText: 'About', linkIcon: AboutIcon},
-    CONTACT_US: {path: '/contact', component: ContactUs, displayText: 'Contact us', linkIcon: HomeIcon},
+    CONTACT_US: {path: '/contact', component: ContactUs, displayText: 'Contact us', linkIcon: ContactUsIcon},
     ORDERS: {path: '/orders', component: Orders, displayText: 'Orders', linkIcon: HomeIcon},
     PROFILE: {path: '/profile', component: Profile, displayText: 'Profile', linkIcon: HomeIcon},
     SUPPORT: {path: '/support', component: Support, displayText: 'Support', linkIcon: HomeIcon}

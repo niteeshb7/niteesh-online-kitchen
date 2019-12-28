@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0228e7ec-9582-4505-bb3f-382a4dcf20a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/shared/icons/About/About-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/icons/About/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/icons/ContactUs/Contact-us-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/icons/ContactUs/ContactUs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/NavigationBar/NavigationBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/NavigationBar/NavigationBar.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout/router-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/router-config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/shared/icons/About" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/shared/icons/ContactUs" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -70,19 +69,19 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/shared/icons/ContactUs" />
+      <recent name="$PROJECT_DIR$/src/components/shared/icons/About" />
+      <recent name="$PROJECT_DIR$/src/components/shared/icons/Login" />
+      <recent name="$PROJECT_DIR$/src/components/shared/icons/SignUp" />
+      <recent name="$PROJECT_DIR$/src/components/shared/icons/Home" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/Layout/hoc/WithSignIn" />
       <recent name="$PROJECT_DIR$/src/components/shared/icons" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/Layout" />
       <recent name="$PROJECT_DIR$/src/components/views" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/shared/icons/About" />
-      <recent name="$PROJECT_DIR$/src/components/shared/icons/Login" />
-      <recent name="$PROJECT_DIR$/src/components/shared/icons/SignUp" />
-      <recent name="$PROJECT_DIR$/src/components/shared/icons/Home" />
-      <recent name="$PROJECT_DIR$/src/components/shared/icons/CloseButton" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -144,7 +143,8 @@
       <workItem from="1577443755024" duration="3591000" />
       <workItem from="1577470058228" duration="2564000" />
       <workItem from="1577491907471" duration="5000" />
-      <workItem from="1577503023464" duration="3456000" />
+      <workItem from="1577503023464" duration="3635000" />
+      <workItem from="1577544412381" duration="268000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup">
       <created>1573983598268</created>
@@ -377,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577507191199</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Added about icon">
+      <created>1577511375917</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1577511375917</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,7 +432,8 @@
     <MESSAGE value="Updated navigation bar background" />
     <MESSAGE value="Added login icon" />
     <MESSAGE value="Updated icons and their styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated icons and their styles" />
+    <MESSAGE value="Added about icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added about icon" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -439,26 +447,26 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="578" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.947@0.23.1680.947" timestamp="1577491552852" />
-    <state x="410" y="101" key="CommitChangelistDialog2" timestamp="1577507190715">
+    <state x="410" y="101" key="CommitChangelistDialog2" timestamp="1577511375755">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="410" y="101" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1577507190715" />
-    <state width="1659" height="268" key="GridCell.Tab.0.bottom" timestamp="1577505053474">
+    <state x="410" y="101" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1577511375755" />
+    <state width="1659" height="268" key="GridCell.Tab.0.bottom" timestamp="1577544793128">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1577505053474" />
-    <state width="1659" height="268" key="GridCell.Tab.0.center" timestamp="1577505053473">
+    <state width="1659" height="268" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1577544793128" />
+    <state width="1659" height="268" key="GridCell.Tab.0.center" timestamp="1577544793127">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1577505053473" />
-    <state width="1659" height="268" key="GridCell.Tab.0.left" timestamp="1577505053472">
+    <state width="1659" height="268" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1577544793127" />
+    <state width="1659" height="268" key="GridCell.Tab.0.left" timestamp="1577544793127">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1577505053472" />
-    <state width="1659" height="268" key="GridCell.Tab.0.right" timestamp="1577505053473">
+    <state width="1659" height="268" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1577544793127" />
+    <state width="1659" height="268" key="GridCell.Tab.0.right" timestamp="1577544793128">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1577505053473" />
+    <state width="1659" height="268" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1577544793128" />
     <state x="168" y="107" key="MergeDialog" timestamp="1575688249925">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
@@ -467,9 +475,9 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="551" y="220" key="MultipleFileMergeDialog/0.23.1680.947@0.23.1680.947" timestamp="1575688249953" />
-    <state x="440" y="238" key="Vcs.Push.Dialog.v2" timestamp="1577507194218">
+    <state x="440" y="238" key="Vcs.Push.Dialog.v2" timestamp="1577511378202">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="440" y="238" key="Vcs.Push.Dialog.v2/0.23.1680.947@0.23.1680.947" timestamp="1577507194218" />
+    <state x="440" y="238" key="Vcs.Push.Dialog.v2/0.23.1680.947@0.23.1680.947" timestamp="1577511378202" />
   </component>
 </project>
