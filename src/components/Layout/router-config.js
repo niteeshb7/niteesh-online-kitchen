@@ -4,6 +4,7 @@ import LoginIcon from '../shared/icons/Login/Login';
 import SignUpIcon from "../shared/icons/SignUp/SignUp";
 import AboutIcon from "../shared/icons/About/About";
 import ContactUsIcon from "../shared/icons/ContactUs/ContactUs";
+import SupportIcon from "../shared/icons/Support/Support";
 
 const Home = lazy(() => import('../views/Home/Home'));
 const About = lazy(() => import('../views/About/About'));
@@ -22,7 +23,7 @@ const RouterConfig = {
     CONTACT_US: {path: '/contact', component: ContactUs, displayText: 'Contact us', linkIcon: ContactUsIcon},
     ORDERS: {path: '/orders', component: Orders, displayText: 'Orders', linkIcon: HomeIcon},
     PROFILE: {path: '/profile', component: Profile, displayText: 'Profile', linkIcon: HomeIcon},
-    SUPPORT: {path: '/support', component: Support, displayText: 'Support', linkIcon: HomeIcon}
+    SUPPORT: {path: '/support', component: Support, displayText: 'Support', linkIcon: SupportIcon}
 };
 
 export default RouterConfig;
