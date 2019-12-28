@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132.09 137.71">
+    <defs>
+        <style>
+            .cls-1{fill:#666;stroke:#000;stroke-miterlimit:10;stroke-width:1.09px;}.cls-2{font-size:118.75px;fill:#fff;font-family:Coquette-Bold,
+            Coquette;font-weight:700;}
+        </style>
+    </defs>
+    <title>About-icon</title>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <path class="cls-1"
+                  d="M131.55,69.06c0-28.88-29.33-52.3-65.5-52.3A80.81,80.81,0,0,0,47.28,19h0C20.25,25.4.55,45.39.55,69.06c0,22.33,17.53,41.37,42.2,48.87v0a110.7,110.7,0,0,1-35,18.74l-.13,0a99.3,99.3,0,0,0,40.29-4.66,107,107,0,0,0,23.49-10.89h0C105.06,119,131.55,96.5,131.55,69.06Z"/>
+            <text class="cls-2" transform="translate(48.74 101.53)">i</text>
+        </g>
+    </g>
+</svg>
