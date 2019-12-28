@@ -1,16 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132.09 137.71">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132.09 121.49">
     <defs>
-        <style>
-            .cls-1{fill:#666;stroke:#000;stroke-miterlimit:10;stroke-width:1.09px;}.cls-2{font-size:118.75px;fill:#fff;font-family:Coquette-Bold,
-            Coquette;font-weight:700;}
-        </style>
+        <style>.cls-1{fill:#666;stroke:#000;stroke-miterlimit:10;stroke-width:1.09px;}.cls-2{fill:#f2f2f2;}</style>
     </defs>
-    <title>About-icon</title>
+    <title>About-icon_1</title>
     <g id="Layer_2" data-name="Layer 2">
         <g id="Layer_1-2" data-name="Layer 1">
             <path class="cls-1"
-                  d="M131.55,69.06c0-28.88-29.33-52.3-65.5-52.3A80.81,80.81,0,0,0,47.28,19h0C20.25,25.4.55,45.39.55,69.06c0,22.33,17.53,41.37,42.2,48.87v0a110.7,110.7,0,0,1-35,18.74l-.13,0a99.3,99.3,0,0,0,40.29-4.66,107,107,0,0,0,23.49-10.89h0C105.06,119,131.55,96.5,131.55,69.06Z"/>
-            <text class="cls-2" transform="translate(48.74 101.53)">i</text>
+                  d="M131.55,52.84C131.55,24,102.22.55,66.05.55A81.36,81.36,0,0,0,47.28,2.73h0C20.25,9.18.55,29.17.55,52.84c0,22.33,17.53,41.38,42.2,48.88h0a110.7,110.7,0,0,1-35,18.74l-.13,0a99.3,99.3,0,0,0,40.29-4.66A107,107,0,0,0,71.36,105h0C105.06,102.78,131.55,80.29,131.55,52.84Z"/>
+            <path class="cls-2"
+                  d="M52.87,24.16a9.29,9.29,0,1,1,9.34,9.38A9.38,9.38,0,0,1,52.87,24.16ZM68.36,89c-7.8,0-12.89-7.13-12.89-14.49V42.81H68.84V72.73c0,2.73,2.25,4.27,4.73,4.27a7.38,7.38,0,0,0,5-1.9V86A17.28,17.28,0,0,1,68.36,89Z"/>
         </g>
     </g>
 </svg>
