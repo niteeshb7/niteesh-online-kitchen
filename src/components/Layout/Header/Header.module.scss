@@ -16,17 +16,17 @@
   align-items: center;
 }
 
-.Header .logo img {
+.Header .logo > img {
   width: 38px;
 }
 
-.Header .logo span:first-of-type {
-  font-family: bello-pro, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 28px;
-  color: $pink-logo;
-  margin-left: .1em;
+.Header .logo div {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.Header .logo div > img {
+  width: 140px;
 }
 
 .Header .menuIcon {
