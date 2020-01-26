@@ -1,9 +1,9 @@
 import React, {lazy, Suspense, useState} from 'react';
 import RouterConfig from "./router-config";
 import {Route, Switch} from "react-router-dom";
-import Loading from "../shared/Loading/Loding";
 import WithLayout from "./hoc/WithLayout/WithLayout";
 import WithSignIn from "./hoc/WithSignIn/WithSignIn";
+import Loading from "../shared/icons/Loading/Loading";
 
 const NotFound = lazy(() => import('../views/NotFound/NotFound'));
 
@@ -46,7 +46,7 @@ const Layout = () => {
     const [signInInfo, setSignInInfo] = useState();
     const [openNav, setNavOpen] = useState();
 
-    return <Suspense fallback={<Loading/>}>
+    return <Suspense fallback={<Loading size={30}/>}>
         <Switch>
             {RouterConfig && Object.values(RouterConfig)
                 .map(route => <Route key={route.path} exact={route.exact}
