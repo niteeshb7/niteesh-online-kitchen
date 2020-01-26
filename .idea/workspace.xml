@@ -151,7 +151,7 @@
       <workItem from="1578870578147" duration="3145000" />
       <workItem from="1580039291177" duration="1749000" />
       <workItem from="1580076503748" duration="12000" />
-      <workItem from="1580076535629" duration="2418000" />
+      <workItem from="1580076535629" duration="4258000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup">
       <created>1573983598268</created>
@@ -433,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580039571104</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Upgraded loader formula based on 2*Math.PI.radius">
+      <created>1580079764679</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1580079764680</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +465,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Updated user icon" />
     <MESSAGE value="Updated header css" />
     <MESSAGE value="Added some pages" />
     <MESSAGE value="Refactored code to split Layout into separate components" />
@@ -483,7 +489,8 @@
     <MESSAGE value="Added support icon" />
     <MESSAGE value="Added loading icon code" />
     <MESSAGE value="yarn upgrade" />
-    <option name="LAST_COMMIT_MESSAGE" value="yarn upgrade" />
+    <MESSAGE value="Upgraded loader formula based on 2*Math.PI.radius" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upgraded loader formula based on 2*Math.PI.radius" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -497,10 +504,10 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="578" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.947@0.23.1680.947" timestamp="1577491552852" />
-    <state x="410" y="101" key="CommitChangelistDialog2" timestamp="1580039570518">
+    <state x="410" y="101" key="CommitChangelistDialog2" timestamp="1580079764248">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="410" y="101" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1580039570518" />
+    <state x="410" y="101" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1580079764248" />
     <state width="1659" height="268" key="GridCell.Tab.0.bottom" timestamp="1580079727071">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
@@ -525,10 +532,10 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="551" y="220" key="MultipleFileMergeDialog/0.23.1680.947@0.23.1680.947" timestamp="1575688249953" />
-    <state x="440" y="238" key="Vcs.Push.Dialog.v2" timestamp="1580039573369">
+    <state x="440" y="238" key="Vcs.Push.Dialog.v2" timestamp="1580079767283">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="440" y="238" key="Vcs.Push.Dialog.v2/0.23.1680.947@0.23.1680.947" timestamp="1580039573369" />
+    <state x="440" y="238" key="Vcs.Push.Dialog.v2/0.23.1680.947@0.23.1680.947" timestamp="1580079767283" />
     <state x="10" y="33" width="1660" height="927" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578870912196">
       <screen x="0" y="23" width="1680" height="947" />
     </state>

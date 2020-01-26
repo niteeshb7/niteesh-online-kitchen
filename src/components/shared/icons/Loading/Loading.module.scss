@@ -6,17 +6,17 @@
     stroke: currentColor;
   }
 
-  animation: animateStrokeDashedArray 1s infinite ease-out backwards;
+  animation: animateStrokeDashedArray 5s infinite linear forwards;
+  stroke-linecap: round;
 }
 
 
 @keyframes animateStrokeDashedArray {
   from {
-    stroke-dashoffset: 130;
+    stroke-dashoffset: 754
   }
   to {
     stroke-dashoffset: 0;
   }
-
 }
 
