@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0228e7ec-9582-4505-bb3f-382a4dcf20a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/icons/Loading/Loading.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/icons/Loading/Loading.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +151,7 @@
       <workItem from="1580076503748" duration="12000" />
       <workItem from="1580076535629" duration="4328000" />
       <workItem from="1580964237735" duration="53000" />
+      <workItem from="1581021859880" duration="377000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup">
       <created>1573983598268</created>
@@ -445,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580081699070</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="updated dependencies">
+      <created>1581021987762</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1581021987762</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,7 +491,6 @@
     <MESSAGE value="Added box-shadow for navigation drawer" />
     <MESSAGE value="fixed navigation css issues" />
     <MESSAGE value="updated navigation box shadow color" />
-    <MESSAGE value="updated dependencies" />
     <MESSAGE value="Updated navigation bar background" />
     <MESSAGE value="Added login icon" />
     <MESSAGE value="Updated icons and their styles" />
@@ -495,7 +503,8 @@
     <MESSAGE value="yarn upgrade" />
     <MESSAGE value="Upgraded loader formula based on 2*Math.PI.radius" />
     <MESSAGE value="adjusted some loader animation properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjusted some loader animation properties" />
+    <MESSAGE value="updated dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated dependencies" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -509,26 +518,26 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="578" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.947@0.23.1680.947" timestamp="1577491552852" />
-    <state x="410" y="101" key="CommitChangelistDialog2" timestamp="1580081698886">
+    <state x="410" y="101" key="CommitChangelistDialog2" timestamp="1581021987508">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="410" y="101" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1580081698886" />
-    <state width="1659" height="268" key="GridCell.Tab.0.bottom" timestamp="1580081713164">
+    <state x="410" y="101" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1581021987508" />
+    <state width="1659" height="268" key="GridCell.Tab.0.bottom" timestamp="1581022293802">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1580081713164" />
-    <state width="1659" height="268" key="GridCell.Tab.0.center" timestamp="1580081713163">
+    <state width="1659" height="268" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1581022293802" />
+    <state width="1659" height="268" key="GridCell.Tab.0.center" timestamp="1581022293801">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1580081713163" />
-    <state width="1659" height="268" key="GridCell.Tab.0.left" timestamp="1580081713163">
+    <state width="1659" height="268" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1581022293801" />
+    <state width="1659" height="268" key="GridCell.Tab.0.left" timestamp="1581022293800">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1580081713163" />
-    <state width="1659" height="268" key="GridCell.Tab.0.right" timestamp="1580081713164">
+    <state width="1659" height="268" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1581022293800" />
+    <state width="1659" height="268" key="GridCell.Tab.0.right" timestamp="1581022293801">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1580081713164" />
+    <state width="1659" height="268" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1581022293801" />
     <state x="168" y="107" key="MergeDialog" timestamp="1575688249925">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
@@ -537,10 +546,10 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="551" y="220" key="MultipleFileMergeDialog/0.23.1680.947@0.23.1680.947" timestamp="1575688249953" />
-    <state x="440" y="238" key="Vcs.Push.Dialog.v2" timestamp="1580081701421">
+    <state x="440" y="238" key="Vcs.Push.Dialog.v2" timestamp="1581021989823">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="440" y="238" key="Vcs.Push.Dialog.v2/0.23.1680.947@0.23.1680.947" timestamp="1580081701421" />
+    <state x="440" y="238" key="Vcs.Push.Dialog.v2/0.23.1680.947@0.23.1680.947" timestamp="1581021989823" />
     <state x="10" y="33" width="1660" height="927" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578870912196">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
