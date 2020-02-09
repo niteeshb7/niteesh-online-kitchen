@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0228e7ec-9582-4505-bb3f-382a4dcf20a2" name="Default Changelist" comment="">
+    <list default="true" id="0228e7ec-9582-4505-bb3f-382a4dcf20a2" name="Default Changelist" comment="completed loader animation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/icons/Loading/Loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/icons/Loading/Loading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/icons/Loading/Loading.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/icons/Loading/Loading.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/views/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/views/Home/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +155,8 @@
       <workItem from="1580076503748" duration="12000" />
       <workItem from="1580076535629" duration="4328000" />
       <workItem from="1580964237735" duration="53000" />
-      <workItem from="1581021859880" duration="706000" />
+      <workItem from="1581021859880" duration="793000" />
+      <workItem from="1581252635845" duration="4079000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup">
       <created>1573983598268</created>
@@ -460,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581022334155</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="completed loader animation">
+      <created>1581022659304</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1581022659304</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,26 +537,26 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="578" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.947@0.23.1680.947" timestamp="1577491552852" />
-    <state x="410" y="101" key="CommitChangelistDialog2" timestamp="1581022333982">
+    <state x="410" y="101" key="CommitChangelistDialog2" timestamp="1581252682565">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="410" y="101" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1581022333982" />
-    <state width="1659" height="268" key="GridCell.Tab.0.bottom" timestamp="1581022293802">
+    <state x="410" y="101" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1581252682565" />
+    <state width="1659" height="268" key="GridCell.Tab.0.bottom" timestamp="1581257232144">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1581022293802" />
-    <state width="1659" height="268" key="GridCell.Tab.0.center" timestamp="1581022293801">
+    <state width="1659" height="268" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1581257232144" />
+    <state width="1659" height="268" key="GridCell.Tab.0.center" timestamp="1581257232144">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1581022293801" />
-    <state width="1659" height="268" key="GridCell.Tab.0.left" timestamp="1581022293800">
+    <state width="1659" height="268" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1581257232144" />
+    <state width="1659" height="268" key="GridCell.Tab.0.left" timestamp="1581257232143">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1581022293800" />
-    <state width="1659" height="268" key="GridCell.Tab.0.right" timestamp="1581022293801">
+    <state width="1659" height="268" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1581257232143" />
+    <state width="1659" height="268" key="GridCell.Tab.0.right" timestamp="1581257232144">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1659" height="268" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1581022293801" />
+    <state width="1659" height="268" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1581257232144" />
     <state x="168" y="107" key="MergeDialog" timestamp="1575688249925">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
@@ -552,13 +565,24 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="551" y="220" key="MultipleFileMergeDialog/0.23.1680.947@0.23.1680.947" timestamp="1575688249953" />
-    <state x="440" y="238" key="Vcs.Push.Dialog.v2" timestamp="1581022336855">
+    <state x="440" y="238" key="Vcs.Push.Dialog.v2" timestamp="1581022662758">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="440" y="238" key="Vcs.Push.Dialog.v2/0.23.1680.947@0.23.1680.947" timestamp="1581022336855" />
+    <state x="440" y="238" key="Vcs.Push.Dialog.v2/0.23.1680.947@0.23.1680.947" timestamp="1581022662758" />
     <state x="10" y="33" width="1660" height="927" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578870912196">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="10" y="33" width="1660" height="927" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1680.947@0.23.1680.947" timestamp="1578870912196" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/views/Home/Home.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

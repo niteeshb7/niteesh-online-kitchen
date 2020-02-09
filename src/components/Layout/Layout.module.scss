@@ -1,0 +1,16 @@
+.initial-loader {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.initial-loader > div {
+  margin-top: 30%;
+}
+
+.initial-loader > div > svg + div {
+  font-weight: 300;
+  margin-top: 5%;
+  font-size: 1.5em;
+}

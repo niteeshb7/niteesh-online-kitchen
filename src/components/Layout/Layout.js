@@ -4,6 +4,7 @@ import {Route, Switch} from "react-router-dom";
 import WithLayout from "./hoc/WithLayout/WithLayout";
 import WithSignIn from "./hoc/WithSignIn/WithSignIn";
 import Loading from "../shared/icons/Loading/Loading";
+import styles from './Layout.module.scss';
 
 const NotFound = lazy(() => import('../views/NotFound/NotFound'));
 
@@ -46,7 +47,8 @@ const Layout = () => {
     const [signInInfo, setSignInInfo] = useState();
     const [openNav, setNavOpen] = useState();
 
-    return <Suspense fallback={<Loading size={30}/>}>
+    return <Suspense
+        fallback={<div className={styles['initial-loader']}><Loading size={40} text={'Please wait...'}/></div>}>
         <Switch>
             {RouterConfig && Object.values(RouterConfig)
                 .map(route => <Route key={route.path} exact={route.exact}
